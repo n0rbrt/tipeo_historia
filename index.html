@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipeo Historia</title> 
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <h1> Desafío tipeo Historia </h1>
+        <div id="start">
+            <p>Conceptos básicos 2do año</p>
+            
+            <button class="button" onclick="startGame()">COMENZAR</button>
+        </div> 
+        
+
+        <div class="game" id="game">
+            <div id="time" class="time">59</div>
+            <div id="word" class="word_style">CONCEPTO</div>
+
+            <input type="text"  id="typed_word" class="entry" onkeyup="compare()">
+            <div class="list" id="register">
+               
+
+        <div class="final_style" id="final">
+            <p class="final_text"> Conceptos tipeados en un minuto</p>
+            <div class="total_style" id="total">30</div>
+             
+            <a href="index.html" class="button">JUGAR DE NUEVO</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
